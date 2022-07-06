@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Login</title>
+    <title>Tutor Login</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="../user/js/login.js" defer></script>
     <style>
         body {
             font-family: "Times New Roman", Georgia, Serif;
@@ -26,15 +25,14 @@
 </head>
 
 <body>
-
     @if (session('save'))
     <script>
-        alert("Login Success");
+        alert("Success");
     </script>
     @endif
     @if (session('error'))
     <script>
-        alert("Login Failed");
+        alert("Failed");
     </script>
     @endif
 
@@ -51,7 +49,7 @@
     <div class="w3-padding-32">
         <div class="w3-row w3-padding-large w3-card-4 w3-border" id="Login">
             <div class="w3-col m6 w3-padding-32">
-                <img src="/images/backgound1.jpeg" class="w3-round w3-image" alt="logo" width="600" height="750">
+                <img src="/images/mytutor.png" class="w3-round w3-image" alt="logo" width="600" height="750">
             </div>
 
             <div class="w3-col m6 w3-padding-large w3-left ">

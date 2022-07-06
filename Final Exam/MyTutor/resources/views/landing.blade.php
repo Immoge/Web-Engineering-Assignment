@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../js/menu.js" defer></script>
     <link rel="stylesheet" href="../css/style.css">
-    <title>Tutor</title>
+    <title>My Tutor Landing Page</title>
 </head>
 <style>
     body {
